@@ -64,8 +64,8 @@ stages:
             -Djib.allowInsecureRegistries=true
 
       env:
-        MY_SECRET_FROM_USERNAME: $(FROM_USERNAME)
-        MY_SECRET_FROM_PASSWORD: $(FROM_PASSWORD)
+        MY_SECRET_FROM_USERNAME: malam
+        MY_SECRET_FROM_PASSWORD: Winchester#1984
     - task: PublishTestResults@2
       inputs:
         testResultsFormat: 'JUnit'
