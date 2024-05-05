@@ -13,7 +13,7 @@ variables:
   DEV_PROJECT: dev-env
   PROD_PROJECT: prod-env
   APPNAME: kafka-sizing
-  TO_REGISTRY: default-route-openshift-image-registry.apps.cluster-wd7p6.wd7p6.sandbox1559.opentlc.com
+  TO_REGISTRY: default-route-openshift-image-registry.apps.rosa.rosa-5n7rd.itva.p3.openshiftapps.com
 
 stages:
 - stage: CI
